@@ -1,4 +1,4 @@
-\# 10-20-2026 8:00 AM
+\# 10-20-2026 08:00 AM
 
 
 
@@ -30,7 +30,7 @@ Racket has exceptions, but returning a failure value keeps everything as plain f
 
 
 
-\# 10-22 9:25 PM
+\# 10-22 09:25 PM
 
 
 
@@ -58,7 +58,7 @@ I should ask about this before the deadline.
 
 
 
-\# 10-23 3:15 PM
+\# 10-23 03:15 PM
 
 
 
@@ -108,7 +108,15 @@ Installed Racket and ran the program for the first time. Interactive mode works.
 
 
 
+\# 10-23 03:57
 
+
+
+Racket was not on the Git Bash PATH, so I ran it by its full path.
+
+Typing straight into batch mode in the terminal gave confusing output, but piping input in worked: `printf "+ 10 3\\n\*\\$1 2\\nquit\\n" | racket.exe calc.rkt -b` printed 1: 13.0 and 2: 26.0.
+
+Batch mode prints only results, with no prompt.
 
 
 
