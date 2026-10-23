@@ -1,9 +1,3 @@
-Here's the full text of the draft. Copy everything in the block below into Notepad, save as `devlog.md`, then replace each `HH:MM` with the real time.
-
-
-
-````
-
 \# 10-20-2026 8:00 AM
 
 
@@ -64,7 +58,7 @@ I should ask about this before the deadline.
 
 
 
-\# 10-23 4:00 PM
+\# 10-23 3:15 PM
 
 
 
@@ -106,17 +100,15 @@ I also checked that interactive mode prints the `> ` prompt and batch mode does 
 
 
 
-Next steps: test more edge cases by hand (empty line, only whitespace, `$0`, `$` with no digits, `1.5`, deeply nested expressions) and ask about the discrepancies.
-
-````
+\# 10-23 3:46 PM
 
 
 
-Before you commit:
+Installed Racket and ran the program for the first time. Interactive mode works. `+ 3 10` gives 13.0. Also tested history (`\*$1 2`), negation (`-$1`), and division by zero (error).
 
-\- The `NOTES` section from the file version isn't needed here, so you don't have to add it.
 
-\- The three entries are written as if they happened at different times. Give each one a real timestamp for when you actually wrote it. If you're writing them all now, say so honestly in the entries rather than inventing earlier times.
 
-\- Add anything from your own experience, like the Git Bash path trouble or anything you tested yourself.
+
+
+
 
